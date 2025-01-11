@@ -68,8 +68,8 @@ span {
     background-color: #ce5260;
     display:inline-block;
     box-shadow: 5px 5px 0px;
-    padding: 8px 8px; /* Reduzido para diminuir o tamanho */
-    height: 30px; /* Reduzido */
+    padding: 8px 8px; 
+    height: 30px; 
     line-height: 30px;
     padding-left: 20px;
     padding-right: 20px;
@@ -83,33 +83,5 @@ span {
     opacity: 0.7;
 }
 
-.main-nav {
-    background-color: #4CAF50;
-    padding: 10px;
-}
 
-.main-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 15px;
-}
 
-.main-nav a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-/* Estilo para o nav secundário */
-.segunda-nav {
-    background-color: #333;
-    position: absolute;
-    width: 300px;
-    height: 90px;
-    left: 91px;
-    top: 196px;
-    filter: drop-shadow(10px 10px 0px #000000);
-
-}
