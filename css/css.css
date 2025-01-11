@@ -1,0 +1,115 @@
+
+:root {
+    --cursor-default: url(assets/cursor.png), auto;
+    --cursor-pointer: url(assets/pointer.png), auto;
+}
+
+html {
+    cursor: var(--cursor-default);
+    font-size: 10px;
+}
+
+a, button, input[type="checkbox"], input[type="radio"], input[type="submit"] {
+    cursor: var(--cursor-pointer);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #afba9f;
+    border: 5px solid #000;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+nav {
+    text-align: right;
+
+}
+
+img {
+    max-width:60px;
+    max-height:60px;
+    width: auto;
+    height: auto;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color:whitesmoke; 
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-right: 30px;   
+}
+
+a::before {
+    content: "";
+    background-color: #ce5260;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+
+}
+span {
+    background-color: #ce5260;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+
+}
+
+#button {
+    background-color: #ce5260;
+    display:inline-block;
+    box-shadow: 5px 5px 0px;
+    padding: 8px 8px; /* Reduzido para diminuir o tamanho */
+    height: 30px; /* Reduzido */
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 0 #000;
+    transition: transform 200ms, linear(0 0%, 1.32 32.35%, 0.93 100.98%), opacity 200ms, ease-in-out;
+}
+
+#button:hover {
+    transform: scale(1.08);
+    opacity: 0.7;
+}
+
+.main-nav {
+    background-color: #4CAF50;
+    padding: 10px;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilo para o nav secundário */
+.segunda-nav {
+    background-color: #333;
+    position: absolute;
+    width: 300px;
+    height: 90px;
+    left: 91px;
+    top: 196px;
+    filter: drop-shadow(10px 10px 0px #000000);
+
+}
