@@ -1,0 +1,12 @@
+.skills-title  {
+    display: flex;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 25px;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.skills-title .icon {
+    margin-right: 25px;
+    width: 90px;
+}
