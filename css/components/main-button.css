@@ -1,4 +1,4 @@
-#button {
+#main-button{
     background-color: #ce5260;
     display:inline-block;
     box-shadow: 5px 5px 0px;
@@ -12,12 +12,12 @@
     transition: transform 200ms, linear(0 0%, 1.32 32.35%, 0.93 100.98%), opacity 200ms, ease-in-out;
 }
 
-#button:hover {
+#main-button:hover {
     transform: scale(1.08);
     opacity: 0.7;
 }
 
-.button {
+.main-button {
     background-color: #ce5260;
     display:inline-block;
     box-shadow: 5px 5px 0px;
@@ -31,7 +31,7 @@
     transition: transform 200ms, linear(0 0%, 1.32 32.35%, 0.93 100.98%), opacity 200ms, ease-in-out;
 }
 
-.button:hover {
+.main-button:hover {
     transform: scale(1.08);
     opacity: 0.7;
 }
