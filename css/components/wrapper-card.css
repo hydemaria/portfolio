@@ -1,0 +1,19 @@
+.wrapper-card {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px;
+    flex-wrap: nowrap; 
+}
+
+.section-card {
+    display: flex; /* Garante que os elementos fiquem em linha reta */
+    justify-content: center; /* Centraliza as imagens */
+    align-items: center;
+    gap: 20px; /* Ajuste o espaçamento entre as imagens */
+}
+
+.card-project img {
+    width: 150px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+}

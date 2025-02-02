@@ -2,13 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 10px 10px 0px #FFFFFFFF;
-    background-color: #afba9f;
+    background-color: #7C5E99;
     width: 280px;
     height: 280px;
+    box-shadow: 10px 10px 0px #FFF;
 }
-
-.section-card  {
-    background-color: black;
+.card-project.-blue {
+    background-color: #4C5B84;
 }
 

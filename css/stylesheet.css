@@ -1,18 +1,4 @@
 
-:root {
-    --cursor-default: url(assets/cursor.png), auto;
-    --cursor-pointer: url(assets/pointer.png), auto;
-}
-
-html {
-    cursor: var(--cursor-default);
-    font-size: 10px;
-}
-
-a, button, input[type="checkbox"], input[type="radio"], input[type="submit"] {
-    cursor: var(--cursor-pointer);
-}
-
 header {
     display: flex;
     justify-content: space-between;
